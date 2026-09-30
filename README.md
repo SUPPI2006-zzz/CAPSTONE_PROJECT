@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mamaearth Returns & Growth Intelligence Pipeline
 
 ## Project Overview
@@ -28,3 +29,7 @@ mamaearth-returns-growth-intelligence/
 ├── narrator/
 ├── sql/
 └── visualizations/
+=======
+# CAPSTONE_PROJECT
+Developed the Mamaearth Returns &amp; Growth Intelligence Pipeline to analyze return drivers and true revenue. The project used SQL for reporting, Python/Pandas for data cleaning and analysis, and GenAI for presenting verified business insights.
+>>>>>>> 880f3371ab133f3eb5daa4b30bdc6ad65ade77a7
