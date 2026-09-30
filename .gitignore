@@ -1,0 +1,6 @@
+mamaearth.db
+reports_output.txt
+__pycache__/
+*.pyc
+.venv/
+.env
