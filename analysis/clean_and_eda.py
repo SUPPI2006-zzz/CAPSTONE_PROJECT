@@ -180,3 +180,38 @@ with_peak = monthly_with.idxmax()
 without_peak = monthly_without.idxmax()
 print(f"Peak month WITH outliers   : {with_peak} (Rs {monthly_with.max():,.2f})")
 print(f"Peak month WITHOUT outliers: {without_peak} (Rs {monthly_without.max():,.2f})")
+
+
+
+import json
+
+findings = {
+    "cleaned_total_revenue_inr": round(merged['order_value'].sum(), 2),
+    "raw_total_revenue_inr": round(raw_total, 2),
+    "duplicate_reconciliation_delta_inr": round(delta, 2),
+    "return_rate_by_payment": {
+        "COD":  float(round(pm_stats.loc['COD',  'return_rate_pct'], 1)),
+        "CARD": float(round(pm_stats.loc['CARD', 'return_rate_pct'], 1)),
+        "UPI":  float(round(pm_stats.loc['UPI',  'return_rate_pct'], 1)),
+    },
+    "highest_risk_segment": {
+        "payment_method": worst[0],
+        "city_tier":      int(worst[1]),
+        "return_rate_pct": float(worst_rate),
+    },
+    "true_peak_month": {
+        "month":       without_peak,
+        "revenue_inr": float(round(monthly_without.max(), 2)),
+    },
+    "outlier_inflated_month": {
+        "month":                 with_peak,
+        "apparent_revenue_inr":  float(round(monthly_with.max(), 2)),
+        "corrected_revenue_inr": float(round(monthly_without.loc[with_peak], 2)),
+    },
+}
+
+with open('narrator/findings.json', 'w') as f:
+    json.dump(findings, f, indent=2)
+
+print("\nfindings.json written to narrator/findings.json")
+print(json.dumps(findings, indent=2))
