@@ -1,8 +1,17 @@
-SITUATION
-Mamaearth's cleaned order book totals Rs 97,358.30 across 175 verified orders after removing double-submitted duplicates from the raw dataset. Payment mix is spread across CARD, UPI and COD, and the business is running on a blended revenue base that had been overstated by data-quality issues before cleaning.
+### Situation
 
-COMPLICATION
-Returns are not uniform across the business. COD orders return at 44.4%, compared with 14.7% for CARD and 18.9% for UPI. Segmented further, the COD + Tier-2 city combination is the single highest-risk pocket at 54.5%. Separately, the raw revenue figure of Rs 99,860.20 was overstated by Rs 2,501.90 due to five duplicate orders, and January's apparent peak of Rs 29,582.10 is an artifact of two bulk orders — corrected January revenue is Rs 11,637.10. The true peak month is 2026-03 at Rs 20,318.90.
+In our latest performance review, Mamaearth's financial records show a raw total revenue of 99860.2 INR. Following rigorous data cleaning and reconciliation processes, our verified cleaned total revenue stands at 97358.3 INR. The data reveals that our true peak performance occurred in the month of 2026-03, which generated a verified revenue of 20318.9 INR. 
 
-RESOLUTION
-Prioritise a COD-to-prepaid intervention in Tier-2 cities targeting the 54.5% return cohort, tighten duplicate-submission controls at checkout, and re-baseline monthly performance against the outlier-corrected trend using 2026-03 as the genuine peak. These three actions address the largest return driver and restore confidence in the reported revenue trajectory.
+### Complication
+
+We have identified critical data discrepancies and operational inefficiencies that threaten our margins. First, a duplicate reconciliation delta of 2501.9 INR was detected in our raw figures. This distortion was primarily caused by an outlier-inflated month in 2026-01, where the apparent revenue of 29582.1 INR had to be corrected down to a true revenue of 11637.1 INR. 
+
+Second, we are experiencing high return rates across our payment channels. Cash on Delivery (COD) transactions carry a return rate of 44.4%, compared to UPI at 18.9% and CARD at 14.7%. This issue is highly concentrated in our highest risk segment: COD transactions in Tier 2 cities, which suffer from an acute return rate of 54.5%.
+
+### Resolution
+
+To safeguard our operational and financial health, regional ops and finance heads must implement the following targeted measures:
+
+1. **Financial Reconciliation:** Adopt the cleaned total revenue of 97358.3 INR as the official baseline for all future budgeting, accounting for the 2501.9 INR duplicate reconciliation delta. All future forecasting models must replace the apparent 2026-01 revenue of 29582.1 INR with the corrected revenue of 11637.1 INR.
+2. **Operational Optimization:** Study and replicate the logistics and marketing strategies deployed during our true peak month of 2026-03 (revenue of 20318.9 INR) to stabilize monthly performance.
+3. **Risk Mitigation:** Address the high-risk Tier 2 city COD segment to bring down its 54.5% return rate. Operations should actively incentivize customers to shift from COD (which has a general 44.4% return rate) toward lower-risk payment methods such as UPI (18.9% return rate) and CARD (14.7% return rate).

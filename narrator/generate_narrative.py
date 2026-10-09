@@ -64,12 +64,12 @@ def generate_scr_narrative(findings: dict) -> dict:
         client = genai.Client(api_key=api_key)
 
         response = client.models.generate_content(
-            model="gemini-3.8-flash",
+            model="gemini-3.5-flash",
             contents=contents,
             config=types.GenerateContentConfig(
                 system_instruction=system_instruction,
                 temperature=0.0,
-                max_output_tokens=1024,
+                max_output_tokens=2048,
                 http_options=types.HttpOptions(timeout=30000),
             ),
         )
