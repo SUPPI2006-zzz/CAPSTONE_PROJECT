@@ -1,0 +1,8 @@
+SITUATION
+Mamaearth's cleaned order book totals Rs 97,358.30 across 175 verified orders after removing double-submitted duplicates from the raw dataset. Payment mix is spread across CARD, UPI and COD, and the business is running on a blended revenue base that had been overstated by data-quality issues before cleaning.
+
+COMPLICATION
+Returns are not uniform across the business. COD orders return at 44.4%, compared with 14.7% for CARD and 18.9% for UPI. Segmented further, the COD + Tier-2 city combination is the single highest-risk pocket at 54.5%. Separately, the raw revenue figure of Rs 99,860.20 was overstated by Rs 2,501.90 due to five duplicate orders, and January's apparent peak of Rs 29,582.10 is an artifact of two bulk orders — corrected January revenue is Rs 11,637.10. The true peak month is 2026-03 at Rs 20,318.90.
+
+RESOLUTION
+Prioritise a COD-to-prepaid intervention in Tier-2 cities targeting the 54.5% return cohort, tighten duplicate-submission controls at checkout, and re-baseline monthly performance against the outlier-corrected trend using 2026-03 as the genuine peak. These three actions address the largest return driver and restore confidence in the reported revenue trajectory.
